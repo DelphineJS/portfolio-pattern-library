@@ -1,4 +1,5 @@
 :root {
-  --font-primary: 'PT Sans', sans-serif;
-  --font-secondary: 'PT Serif', serif;
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+  --color-primary: #222323;
 }
