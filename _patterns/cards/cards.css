@@ -1,26 +1,27 @@
 @media only screen and (min-width: 60em) {
 
-  a div .banner-img {
+a .banner-img {
     transition: .2s linear;
   }
 
-  figure {
+  a {
     position: relative;
+    height: 100%;
   }
 
   a figcaption {
     position: absolute;
-    transform: translateX(-50%);
-    top:50%;
     left: 50%;
-    text-align: center;
-    line-height: 1em;
+    top: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
+    color: var(--color-primary-light);
+    font-weight: 700;
   }
 
 /* Banner Hover*/
 
-  a:hover div .banner-img {
+  a:hover .banner-img {
     transform: scale(1.5); /* Scale up on hover */
     cursor: pointer; /* Add a pointer on hover */
   }

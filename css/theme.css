@@ -1,6 +1,21 @@
 :root {
   --font-primary: 'Open Sans', sans-serif;
-  --font-secondary: 'Playfair Display', serif;
+  --font-secondary: 'Raleway', serif;
   --color-primary: #222323;
   --color-primary-light: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family var(--font-secondary);
+  color: var(--color-primary);
+}
+
+a {
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  color: #606792;
+}
+
+.tracking {
+  letter-spacing: 0.5em;
 }
