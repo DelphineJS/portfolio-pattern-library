@@ -1,0 +1,36 @@
+.banner-container {
+  position: relative;
+  min-height: 15em;
+}
+
+.alive-banner {
+  background-image: url("/images/banners/alive-banner.jpg");
+  background-size: cover;
+  background-position: center right;
+}
+
+.banner-overlay {
+  position: absolute;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 10em;
+}
+
+.transparent {
+  opacity: .3;
+}
+
+.purple-hover {
+  background-color: var(--color-alive-accent);
+  background-size: cover;
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-container {
+    min-height: 20em;
+  }
+
+}

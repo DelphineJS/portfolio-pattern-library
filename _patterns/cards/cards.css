@@ -1,31 +1,134 @@
+/*Lightbox Card*/
+
+.lightbox-text {
+  color: var(--color-primary);
+  margin-bottom: 1em;
+}
+
+a:hover .lightbox-text-footer {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.lightbox-container {
+  color: var(--color-primary);
+  position: relative;
+}
+
+.lightbox-caption {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  background-size: contain;
+  padding-top: 10em; /* Add gradient overlay and pin text to bottom center of card*/
+}
+/*Adobe Boxes*/
+
+.program-box {
+  max-width: 300px;
+}
+
+/*Lightbox Footer*/
+
+.alive-footer {
+  background-image: url(/images/banners/alive-banner.jpg);
+  background-size: cover;
+  background-position: right center;
+  min-height: 15em;
+  width: 100%;
+}
+
+.lightbox-screen {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  transition: .2s linear;
+}
+
 @media only screen and (min-width: 60em) {
 
-a .banner-img {
-    transition: .2s linear;
+/*Lightbox Card*/
+
+  .lightbox-text {
+    margin-bottom: 0;
+    transition: .2s linear; /*Soft text fade control*/
   }
 
-  a {
-    position: relative;
-    height: 100%;
+  a .banner-img {
+    transition: .2s linear; /*Soft image fade control*/
   }
 
-  a figcaption {
+  .lightbox-caption {
     position: absolute;
-    left: 50%;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
-    color: var(--color-primary-light);
-    font-weight: 700;
+    opacity: 0; /*Move text to middle of card and make transparent*/
+    background: transparent; /*Get rid of black overlay*/
+    bottom: auto;
+    padding-top: 0;
+    font-weight: bold;
+  }
+
+  .lightbox-container {
+    margin-bottom: 0;
+  }
+
+  /*Hover State Classes*/
+
+  .pink-overlay {
+    background-image: url(/images/overlays/pink-hover.jpg);
+    background-size: cover;
+  }
+
+  .green-overlay {
+    background-image: url(/images/overlays/green-hover.jpg);
+    background-size: cover;
+  }
+
+  .orange-overlay {
+    background-image: url(/images/overlays/orange-hover.jpg);
+    background-size: cover;
+  }
+
+  .yellow-overlay {
+    background-image: url(/images/overlays/yellow-hover.jpg);
+    background-size: cover;
+  }
+
+  .purple-overlay {
+    background-image: url(/images/overlays/purple-hover.jpg);
+    background-size: cover;
+  }
+
+  .coral-overlay {
+    background-image: url(/images/overlays/coral-hover.jpg);
+    background-size: cover;
   }
 
 /* Banner Hover*/
 
   a:hover .banner-img {
-    transform: scale(1.5); /* Scale up on hover */
+    transform: scale(1.1); /* Scale up on hover */
     cursor: pointer; /* Add a pointer on hover */
+    opacity: 0.1;
+    transform-origin: center;
   }
 
-  a:hover figcaption {
+  a:hover .banner-img-footer {
+    opacity: 0.1;
+  }
+
+  a:hover .lightbox-caption {
+    transition: .2s linear;
     opacity: 100; /* Make text visible on hover */
   }
+
+  /*Lightbox Footer*/
+
+  a:hover .lightbox-screen {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+  }
+
+}

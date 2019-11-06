@@ -1,0 +1,45 @@
+/*Button Primary*/
+
+.btn {
+  border-radius: 0;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn a {
+  color: var(--color-primary-light);
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  transition: .3s linear;
+}
+
+.btn:hover a {
+  color: var(--color-primary-light);
+  box-shadow: var(--color-primary) 0 -3px 0 inset;
+  transition: .3s linear;
+}
+
+/*Button Ghost*/
+
+.btn-ghost {
+  background-color: transparent;
+}
+
+.btn-ghost a {
+  color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-ghost:hover a {
+  color: var(--color-primary-light);
+  box-shadow: var(--color-secondary) 0 -3px 0 inset ;
+}
+
+/*Button Light*/

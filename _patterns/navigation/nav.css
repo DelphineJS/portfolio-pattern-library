@@ -1,0 +1,11 @@
+svg:hover #vest {
+  fill: var(--color-secondary);
+}
+
+svg:hover #letters{
+  fill: var(--color-secondary-light);
+}
+
+nav ul li {
+  font-family: var(--font-secondary);
+}

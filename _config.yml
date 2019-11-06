@@ -3,4 +3,16 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:300,700&display=swap"
+  title: "Delphine Sullivan"
+  description: |
+    Graphic designer based out of Ottawa, Ontario, specializing in branding and motion graphics.
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat:300,400|Oswald:200&display=swap"
+  rationales:
+    colors.primary: |
+      The primary colours represent the colours of a well-worn denim vest. They should be used for any main uses of colour, like body copy and backgrounds.
+    colors.secondary: |
+      The secondary colours represent the hard-to-capture fluorescence of neon signs and highlighters. They should be used for any small accents, like underlines and hover states.
+    typefaces.primary: |
+      Montserrat was selected for its blend of readability and art deco influences. It does its job well, while adding a little something special. Montserrat should be used for all body copy and for most applications.
+    typefaces.secondary: |
+      Oswald was chosen for its similarities to classic letterpress fonts, bringing printmaking's old-school style onto the screen. Oswald should be used for all headings and for any highlighted, limited text.

@@ -1,0 +1,5 @@
+.img-box {
+  background-image: url(/images/about-me.jpg);
+  background-size: cover;
+  background-position: center;
+}
