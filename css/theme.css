@@ -27,7 +27,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
 }
 
 h1 {
@@ -57,7 +57,7 @@ h5 {
   font-weight: lighter;
 }
 
-/*Links & Underlines*/
+/*Links, Underlines & Hovers*/
 
 a,
 .underline {
@@ -72,6 +72,21 @@ a:hover {
   box-shadow: var(--color-secondary-light) 0px -3px 0px inset;
 }
 
+a .hover-underline-light,
+a .hover-underline-dark {
+  transition: .2s linear;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px inset;
+  background-color: transparent;
+}
+
+a:hover .hover-underline-light {
+  box-shadow: var(--color-primary-light) 0px -3px 0px inset;
+}
+
+a:hover .hover-underline-dark {
+  box-shadow: var(--color-primary) 0px -3px 0px inset;
+}
+
 .no-underline,
 .no-underline:hover,
 .no-underline:focus {
@@ -79,8 +94,28 @@ a:hover {
 }
 
 hr {
-  border-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  border-width: 3px;
 }
+
+.bg-hover,
+.bg-hover-light
+.bg-hover-dark {
+  background-color: transparent;
+}
+
+.bg-hover:hover {
+  background-color: var(--color-secondary-light);
+}
+
+.bg-hover-light:hover {
+  background-color: var(--color-primary-light);
+}
+
+.bg-hover-dark:hover {
+  background-color: var(--color-primary-dark);
+}
+
 
 /*Lists*/
 
@@ -149,7 +184,7 @@ q {
 
 .font-secondary {
   font-family: var(--font-secondary);
-  letter-spacing: .1em;
+  letter-spacing: .2em;
 }
 
 /*Emphasis & Edits*/
@@ -192,15 +227,19 @@ mark {
 
 /*ICONS*/
 
-.icon-link {
-  color: var(--color-primary);
+.icon-label {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  font-size: 80%;
 }
 
-.icon-link:after,
-.icon-link:hover::after {
-  margin: auto;
-  height: 0;
-  background: transparent; /* Remove height and colour for thick underline on icon label*/
+.icon-link {
+  color: var(--color-primary);
+  box-shadow: transparent 0 0 0 inset;
+}
+
+.icon-link:hover {
+  box-shadow: transparent 0 0 0 inset;
 }
 
 /*Utilities*/

@@ -6,7 +6,7 @@
 }
 
 a:hover .lightbox-text-footer {
-  color: var(--color-secondary);
+  color: var(--color-secondary-light);
   font-weight: bold;
 }
 
