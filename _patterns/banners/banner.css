@@ -43,10 +43,6 @@
   transition: .2s linear;
 }
 
-@media only screen and (min-width: 60em) {
-
-  /*Lightbox Footer*/
-
   a:hover .lightbox-screen {
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;

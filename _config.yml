@@ -6,7 +6,7 @@ patternbot:
   title: "Delphine Sullivan"
   description: |
     Graphic designer based out of Ottawa, Ontario, specializing in branding and motion graphics.
-  font_url: "https://fonts.googleapis.com/css?family=Montserrat:300,400|Oswald:200&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat:300,400|Oswald:200"
   rationales:
     colors.primary: |
       The primary colours represent the colours of a well-worn denim vest. They should be used for any main uses of colour, like body copy and backgrounds.

@@ -22,24 +22,52 @@
   transition: .3s linear;
 }
 
+/*Button Light*/
+
+.btn-light {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
+
+.btn-light a {
+  color: var(--color-primary-dark);
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  transition: .3s linear;
+}
+
+.btn-light:hover a {
+  color: var(--color-primary-light);
+  font-weight: bold;
+  box-shadow: var(--color-secondary) 0 -.1em 0 inset ;
+  transition: .3s linear;
+}
+
 /*Button Ghost*/
 
 .btn-ghost {
   background-color: transparent;
+  border-color: var(--color-primary-light);
 }
 
 .btn-ghost a {
-  color: var(--color-primary);
+  color: var(--color-primary-light);
 }
 
 .btn-ghost:hover {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  transition: .3s linear;
 }
 
 .btn-ghost:hover a {
-  color: var(--color-primary-light);
-  box-shadow: var(--color-secondary) 0 -.1em 0 inset ;
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  box-shadow: var(--color-secondary-accent) 0 -.1em 0 inset ;
+  transition: .3s linear;
 }
 
 /*Button Light*/

@@ -1,0 +1,51 @@
+title: "Image Groups"
+description: |
+  Groups of images to be used in all different situations.
+
+patterns:
+  figure-array:
+    title: "Figure Array"
+    description: |
+      The figure array should be used to display images and captions in a row where a large amount of image detail is not needed, mainly for sketches and concepts in each case study.
+    fields:
+      - name: image-1
+        type: image
+        example: "/images/alive/alive-sketches.jpg"
+      - name: image-2
+        type: image
+        example: "/images/alive/alive-sketches-2.jpg"
+      - name: image-3
+        type: image
+        example: "/images/alive/alive-sketches-3.jpg"
+      - name: caption-1
+        type: string
+        example: "Sketches of product packaging, coasters, and label."
+      - name: caption-2
+        type: string
+        example: "Sketches of variable print concept and logo overlays."
+      - name: caption-3
+        type: string
+        example: "Mood board images and inspiration."
+  programs:
+    title: "Adobe Program List"
+    description: |
+      The Adobe program list should be used to show or hide which programs were used for each project, and should always be located directly under the project banner.
+    fields:
+      - name: indesign
+        type: class
+        example: "shown"
+      - name: illustrator
+        type: class
+        example: "shown"
+      - name: photoshop
+        type: class
+        example: "shown"
+      - name: after-effects
+        type: class
+        example: "hidden"
+      - name: xd
+        type: class
+        example: "hidden"
+      - name: dimension
+        type: class
+        example: "hidden"

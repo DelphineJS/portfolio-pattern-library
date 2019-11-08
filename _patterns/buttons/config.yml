@@ -1,22 +1,43 @@
-title: "Buttons!"
-  description: | Buttons of every variety, perfect for pressing.
+title: "Buttons"
+description: |
+  Buttons of every variety, perfect for pressing.
 
 patterns:
   basic:
     width: 400
-    title: "Regular Button"
+    title: "Basic Button"
     description: |
       This super-ordinary button should be used for most situations, except for on dark backgrounds.
     fields:
+      - name: link
+        type: url
+        example: "#"
+      - name: text
+        type: string
+        example: "Say Hello"
+  light:
+    background: "--color-secondary-dark"
+    width: 400
+    title: "Light Button"
+    description: |
+      This light-coloured, solid button should be used only on dark-coloured backgrounds with main content — not on banners or images.
+    fields:
+      - name: link
+        type: url
+        example: "#"
       - name: text
         type: string
         example: "Say Hello"
   ghost:
+    background: "--color-primary-dark"
     width: 400
     title: "Ghost Button"
     description: |
-      This light-coloured, outlined button should be used only on banners or on top of images.
+      This light-coloured, outlined button should be used only on dark-coloured banners or on top of darker images.
     fields:
+      - name: link
+        type: url
+        example: "#"
       - name: text
         type: string
-        example: "See Next Project"
+        example: "Say Hello"

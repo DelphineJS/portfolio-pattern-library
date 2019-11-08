@@ -1,0 +1,30 @@
+title: "Sections"
+description: |
+  Big chunks of content that can stand by themselves.
+
+patterns:
+  about-me:
+    title: "Highlight"
+    description: |
+      The highlight section should be used for any important stand-alone sections that include a title, subtitle, paragraph, and call-to-action.
+    fields:
+      - name: heading
+        type: string
+        example: "Hi! I’m Delphine."
+      - name: subheading
+        type: string
+        example: "Graphic designer.<br> Illustrator.<br> Printmaker. <br>Cat enthusiast."
+        required: false
+      - name: paragraph-1
+        type: string
+        example: "When I work, I’m always chasing the <em>wow</em>. Everything about design gives me satisfaction — from creating entire brand identities, to nailing the perfect kerning on the smallest subheading."
+      - name: paragraph-2
+        type: string
+        example: "But nothing gives me a better feeling than seeing someone excited about what I’ve created — every design is an opportunity to get someone to say <em>wow</em>. That’s the goal, every time."
+        required: false
+      - name: button_text
+        type: string
+        example: "Say Hello"
+      - name: button_link
+        type: url
+        example: "#"
