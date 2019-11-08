@@ -1,0 +1,22 @@
+title: "Buttons!"
+  description: | Buttons of every variety, perfect for pressing.
+
+patterns:
+  basic:
+    width: 400
+    title: "Regular Button"
+    description: |
+      This super-ordinary button should be used for most situations, except for on dark backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "Say Hello"
+  ghost:
+    width: 400
+    title: "Ghost Button"
+    description: |
+      This light-coloured, outlined button should be used only on banners or on top of images.
+    fields:
+      - name: text
+        type: string
+        example: "See Next Project"

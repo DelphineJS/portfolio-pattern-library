@@ -29,22 +29,6 @@ a:hover .lightbox-text-footer {
   max-width: 300px;
 }
 
-/*Lightbox Footer*/
-
-.alive-footer {
-  background-image: url(/images/banners/alive-banner.jpg);
-  background-size: cover;
-  background-position: right center;
-  min-height: 15em;
-  width: 100%;
-}
-
-.lightbox-screen {
-  background-color: rgba(0, 0, 0, 0.6);
-  background-blend-mode: multiply;
-  transition: .2s linear;
-}
-
 @media only screen and (min-width: 60em) {
 
 /*Lightbox Card*/
@@ -122,13 +106,6 @@ a:hover .lightbox-text-footer {
   a:hover .lightbox-caption {
     transition: .2s linear;
     opacity: 100; /* Make text visible on hover */
-  }
-
-  /*Lightbox Footer*/
-
-  a:hover .lightbox-screen {
-    background-color: rgba(0, 0, 0, 0.3);
-    background-blend-mode: multiply;
   }
 
 }

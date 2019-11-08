@@ -1,6 +1,6 @@
-<a class="lightbox no-underline" href="{{include.link default='#'}}">
+<a class="lightbox no-underline" href="{{include.link | default='#'}}">
   <figure class="lightbox-container push-0">
-    <div class="embed embed-1by1 {{include.color | default:'green'}}-overlay">
+    <div class="embed embed-1by1 {{include.overlay-color | default:'green'}}-overlay">
       <img class="embed-item banner-img" src="/images/{{include.image | default: 'parallax.gif'}}" alt="">
     </div>
     <figcaption class="lightbox-caption text-center">

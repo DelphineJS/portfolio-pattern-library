@@ -27,6 +27,33 @@
   background-size: cover;
 }
 
+/*Lightbox Footer*/
+
+.alive-footer {
+  background-image: url(/images/banners/alive-banner.jpg);
+  background-size: cover;
+  background-position: right center;
+  min-height: 15em;
+  width: 100%;
+}
+
+.lightbox-screen {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  transition: .2s linear;
+}
+
+@media only screen and (min-width: 60em) {
+
+  /*Lightbox Footer*/
+
+  a:hover .lightbox-screen {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+  }
+
+}
+
 @media only screen and (min-width: 90em) {
 
   .banner-container {

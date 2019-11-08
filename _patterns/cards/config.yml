@@ -1,3 +1,23 @@
+title: "Cards"
+description: |
+  All sorts of clickable boxes with images and titles to lead you to other places within the website.
+
 patterns:
   lightbox:
     width: 400
+    title: "Lightbox Card"
+    description: |
+      The lightbox card should be used in the home banner as a link to each case study.
+    fields:
+      - name: link
+        type: string
+        example: "#"
+      - name: overlay-color
+        type: class
+        example: "green"
+      - name: title
+        type: string
+        example: "Motion Graphics"
+      - name: image
+        type: image
+        example: "parallax.gif"
