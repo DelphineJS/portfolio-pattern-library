@@ -10,14 +10,10 @@ nav ul li {
   font-family: var(--font-secondary);
 }
 
-.logo-footer:hover #vest {
-  fill: var(--color-primary-dark);
+a .logo-footer {
+  fill: var(--color-primary);
 }
 
-.logo-footer:hover #letters {
-  fill: var(--color-secondary-light);
-}
-
-.logo-footer:hover #bg {
+a .logo-footer:hover {
   fill: var(--color-secondary);
 }
