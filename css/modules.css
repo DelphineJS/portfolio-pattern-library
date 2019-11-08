@@ -173,6 +173,10 @@ svg.img-flex {
   padding-top: 150%; /* Classic 35 mm film & most digital photos, portrait */
 }
 
+.embed-4by5, .embed--4by5 {
+  padding-top: 125%; /* Traditional TV/computer screens */
+}
+
 .embed-golden, .embed--golden {
   padding-top: 61.8%; /* The Golden Ratio */
 }

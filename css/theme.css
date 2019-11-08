@@ -20,7 +20,7 @@
 
 html {
   font-family: var(--font-primary);
-  font-weight: 300;
+  font-weight: 200;
 }
 
 /*Headings*/
@@ -64,7 +64,7 @@ a,
   color: var(--color-primary-dark);
   text-decoration: none;
   box-shadow: var(--color-primary) 0px -3px 0px inset;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a:hover {
@@ -95,7 +95,7 @@ a:hover .hover-underline-dark {
 
 hr {
   border-color: var(--color-primary);
-  border-width: 3px;
+  border-width: 6px;
 }
 
 .bg-hover,
@@ -175,7 +175,7 @@ blockquote footer {
 
 q {
   color:var(--color-primary);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .font-primary {
@@ -223,6 +223,14 @@ mark {
 
 .title-case {
   text-transform: none;
+}
+
+.border-top {
+  border-top: 2px var(--color-primary) solid;
+}
+
+.border-top-neon {
+  border-top: 10px var(--color-secondary-light) solid;
 }
 
 /*ICONS*/

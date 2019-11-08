@@ -1,11 +1,23 @@
-svg:hover #vest {
+.logo:hover #vest {
   fill: var(--color-secondary);
 }
 
-svg:hover #letters{
+.logo:hover #letters{
   fill: var(--color-secondary-light);
 }
 
 nav ul li {
   font-family: var(--font-secondary);
+}
+
+.logo-footer:hover #vest {
+  fill: var(--color-primary-dark);
+}
+
+.logo-footer:hover #letters {
+  fill: var(--color-secondary-light);
+}
+
+.logo-footer:hover #bg {
+  fill: var(--color-secondary);
 }

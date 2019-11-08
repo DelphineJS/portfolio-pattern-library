@@ -18,7 +18,7 @@
 
 .btn:hover a {
   color: var(--color-primary-light);
-  box-shadow: var(--color-primary) 0 -3px 0 inset;
+  box-shadow: var(--color-primary) 0 -.1em 0 inset;
   transition: .3s linear;
 }
 
@@ -39,7 +39,7 @@
 
 .btn-ghost:hover a {
   color: var(--color-primary-light);
-  box-shadow: var(--color-secondary) 0 -3px 0 inset ;
+  box-shadow: var(--color-secondary) 0 -.1em 0 inset ;
 }
 
 /*Button Light*/
