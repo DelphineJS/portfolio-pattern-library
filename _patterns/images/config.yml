@@ -34,18 +34,36 @@ patterns:
       - name: indesign
         type: class
         example: "shown"
+        classes:
+          - 'shown'
+          - 'hidden'
       - name: illustrator
         type: class
         example: "shown"
+        classes:
+          - 'shown'
+          - 'hidden'
       - name: photoshop
         type: class
         example: "shown"
+        classes:
+          - 'shown'
+          - 'hidden'
       - name: after-effects
         type: class
         example: "hidden"
+        classes:
+          - 'shown'
+          - 'hidden'
       - name: xd
         type: class
         example: "hidden"
+        classes:
+          - 'shown'
+          - 'hidden'
       - name: dimension
         type: class
         example: "hidden"
+        classes:
+          - 'shown'
+          - 'hidden'

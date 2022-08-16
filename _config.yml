@@ -16,3 +16,8 @@ patternbot:
       Montserrat was selected for its blend of readability and art deco influences. It does its job well, while adding a little something special. Montserrat should be used for all body copy and for most applications.
     typefaces.secondary: |
       Oswald was chosen for its similarities to classic letterpress fonts, bringing printmaking's old-school style onto the screen. Oswald should be used for all headings and for any highlighted, limited text.
+  layouts:
+    default: |
+      This layout is to be used for any standard non-project pages. It contains the basic header navigation and footer navigation.
+    project:
+      This layout is to be used for any internal project pages. It contains both navigations, a project banner and header, and a footer banner navigating you to the next project.

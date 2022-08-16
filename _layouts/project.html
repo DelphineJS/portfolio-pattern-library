@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Oswald:200&display=swap" rel="stylesheet">
+</head>
+<body>
+  {% pattern navigation/top-nav %}
+  <main>
+    {% pattern banners/project-banner project-image="alive" title="Alive Kombucha Branding" %}
+    <div class="wrapper">
+      {% pattern images/programs indesign="shown" illustrator="shown" photoshop="shown" after-effects="hidden" xd="hidden" dimension="hidden" %}
+    </div>
+    <div class=" wrapper gutter">
+      {{content}}
+    </div>
+    {% pattern banners/lightbox-footer link="#" project-image="alive" title="Alive Kombucha Branding" %}
+  </main>
+  {% pattern navigation/footer-nav %}
+</body>
+</html>

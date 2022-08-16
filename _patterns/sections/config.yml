@@ -28,3 +28,25 @@ patterns:
       - name: button_link
         type: url
         example: "#"
+  left-text-block:
+    title: "Text Left"
+    description: |
+      This text block should be used for short, descriptive paragraphs of text on project pages. It should be alternated with the <em>Text Right</em> pattern to add visual interest as you move down the page.
+    fields:
+    - name: title
+      type: string
+      example: "Project Brief"
+    - name: text
+      type: string
+      example: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae dignissim libero, at pharetra nulla. Curabitur imperdiet vitae orci ut aliquet. Vivamus viverra vestibulum venenatis. Phasellus quis est lorem. Fusce faucibus eget nulla vel lobortis. Aliquam rhoncus, sapien quis posuere ultrices, mauris nisl molestie lorem, vel porttitor purus ipsum vel massa. Pellentesque vitae odio posuere, bibendum quam non, dictum nunc. Aenean mollis metus arcu, vel scelerisque ante ornare eu."
+  right-text-block:
+    title: "Text Right"
+    description: |
+      This text block should be used for short, descriptive paragraphs of text on project pages. It should be alternated with the <em>Text Left</em> pattern (with text left always appearing first) to add visual interest as you move down the page.
+    fields:
+    - name: title
+      type: string
+      example: "Concept"
+    - name: text
+      type: string
+      example: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae dignissim libero, at pharetra nulla. Curabitur imperdiet vitae orci ut aliquet. Vivamus viverra vestibulum venenatis. Phasellus quis est lorem. Fusce faucibus eget nulla vel lobortis. Aliquam rhoncus, sapien quis posuere ultrices, mauris nisl molestie lorem, vel porttitor purus ipsum vel massa. Pellentesque vitae odio posuere, bibendum quam non, dictum nunc. Aenean mollis metus arcu, vel scelerisque ante ornare eu."

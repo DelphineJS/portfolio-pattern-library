@@ -1,0 +1,13 @@
+title: "Navigations"
+description: |
+  Navigations to take you to different parts of the website.
+
+patterns:
+  top-nav:
+    title: "Header Navigation"
+    description: |
+      The header navigation is located at the top of every page. It allows you to go back to the home page from wherever on the website you might be.
+  footer-nav:
+    title: "Footer Navigation"
+    description: |
+      The footer navigation is located at the bottom of every page. It allows you to go back to the home page, and also access the main topics on the home page. It also has supplemental links to things like social media and email.

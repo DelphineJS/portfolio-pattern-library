@@ -1,0 +1,48 @@
+title: "Banners"
+description: |
+  Banners full of highlights and links to catch the eye and move you through the website.
+
+patterns:
+  home-banner:
+    title: "Home Banner"
+    description: |
+      The home banner is located on the home page only. It links to every project page on the website.
+  lightbox-footer:
+    title: "Next Project Banner"
+    description: |
+      The next project banner is located on the bottom of every project page. It sends you to the next project on the website, helping the user move through projects without returning to the home page.
+    fields:
+      - name: link
+        type: url
+        example: "#"
+      - name: project-image
+        type: class
+        example: "alive"
+        classes:
+          - 'joseph-mcdonald'
+          - 'motion'
+          - 'cf-ottawa'
+          - 'alive'
+          - 'kanata-theatre'
+          - 'packaging'
+      - name: title
+        type: string
+        example: "Alive Kombucha Branding"
+  project-banner:
+    title: "Project Header"
+    description: |
+      This banner is located at the top of every project page, and includes the title of the page. It also contains an array of images representing the programs used to create the project.
+    fields:
+      - name: project-footer-image
+        type: class
+        example: "alive"
+        classes:
+            - 'joseph-mcdonald'
+            - 'motion'
+            - 'cf-ottawa'
+            - 'alive'
+            - 'kanata-theatre'
+            - 'packaging'
+      - name: project-footer-title
+        type: string
+        example: "Alive Kombucha Branding"
