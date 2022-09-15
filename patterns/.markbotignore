@@ -1,5 +1,8 @@
-brand
-grid
-icons
-modules
-typography
+index.html
+pattern-library.html
+patterns
+common/grid.css
+common/type.css
+common/modules.css
+common/patternbot.js
+common/patternbot.min.js
