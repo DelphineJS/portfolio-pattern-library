@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {% if page._PatternbotData.css.main %}
+    <link href="{{site.baseurl}}/{{page._PatternbotConfig.patternbot.css.source}}/{{page._PatternbotConfig.patternbot.css.main}}?v={{site.time | date:'%s'}}" rel="stylesheet">
+  {% endif %}
+  {% if page._subpattern_data.background %}
+    <style>
+      html {
+        background-color: {{page._subpattern_data.background | as_hex}};
+      }
+    </style>
+  {% endif %}
+</head>
+<body>
+
+  <div id="patternbot-pattern-include">
+    {{content}}
+  </div>
+
+  <script src="{{site.baseurl}}/assets/_patternbot/vendor/iframe-resizer-content-window.min.js?v={{page._PatternbotConfig.patternbot.version}}"></script>
+  <script src="{{site.baseurl}}/assets/_patternbot/vendor/clipboard.min.js?v={{page._PatternbotConfig.patternbot.version}}"></script>
+  {% include patternbot_pattern_copy_script.html %}
+
+  {% if page._PatternbotData.js.main %}
+    <link href="{{site.baseurl}}/{{page._PatternbotConfig.patternbot.js.source}}/{{page._PatternbotConfig.patternbot.js.main}}?v={{site.time | date:'%s'}}" rel="stylesheet">
+  {% endif %}
+
+</body>
+</html>

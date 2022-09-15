@@ -1,0 +1,16 @@
+AllCops:
+  TargetRubyVersion: 2.4
+Layout/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude: ["spec/**/*", "test/**/*"]
+Documentation:
+  Enabled: false
+Style/FormatStringToken:
+  Enabled: false
+Style/AccessModifierDeclarations:
+  EnforcedStyle: inline
+Naming/MethodParameterName:
+  MinNameLength: 1
